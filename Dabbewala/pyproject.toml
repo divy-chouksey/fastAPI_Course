@@ -1,16 +1,11 @@
 [project]
-name = "fastapi-course"
+name = "dabbewala"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "fastapi[standard]>=0.142.2",
+    "fastapi[standard]>=0.156.3",
+    "sqlmodel>=0.0.48",
     "uvicorn>=0.54.0",
-]
-
-[tool.uv.workspace]
-members = [
-    "ChaiMenu",
-    "Pincode_Lookup",
 ]

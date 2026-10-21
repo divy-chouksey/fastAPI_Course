@@ -3,7 +3,7 @@ from fastapi import Request
 
 #Custom Exception classes
 class PinCodeNotFoundError(Exception):
-    def __int__(self,pincode):
+    def __init__(self,pincode):
         self.pincode = pincode
 
 class InvalidPinCodeError(Exception):
