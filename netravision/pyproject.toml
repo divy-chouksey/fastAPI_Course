@@ -1,0 +1,14 @@
+[project]
+name = "netravision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.162.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "app",
+]

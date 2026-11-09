@@ -1,0 +1,12 @@
+[project]
+name = "kitabexchange"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.156.4",
+    "python-dotenv>=1.0.0",
+    "sqlmodel>=0.0.48",
+    "uvicorn>=0.54.0",
+]
